@@ -40,15 +40,15 @@ public class BallController : MonoBehaviour
     {
         if (Point2.gameObject.tag == "LargeStarTag")
         {
-            Point += 200;
+            Point += 1000;
         }
         else if (Point2.gameObject.tag == "SmallStarTag")
         {
-            Point += 50;
+            Point += 100;
         }
         else
         {
-            Point += 0;
+            Point += 10;
         }
         this.pointText.GetComponent<Text>().text =Point+"“_";
     }
