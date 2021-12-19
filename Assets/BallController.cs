@@ -46,6 +46,14 @@ public class BallController : MonoBehaviour
         {
             Point += 100;
         }
+        else if (Point2.gameObject.tag == "SmallCloudTag")
+        {
+            Point += 10;
+        }
+        else if (Point2.gameObject.tag == "LargeCloudTag")
+        {
+            Point += 1;
+        }
         else
         {
             Point += 10;
