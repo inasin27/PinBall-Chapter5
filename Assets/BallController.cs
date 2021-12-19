@@ -54,10 +54,6 @@ public class BallController : MonoBehaviour
         {
             Point += 1;
         }
-        else
-        {
-            Point += 10;
-        }
         this.pointText.GetComponent<Text>().text =Point+"“_";
     }
 
